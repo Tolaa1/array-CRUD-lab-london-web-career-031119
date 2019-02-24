@@ -7,12 +7,12 @@ def create_an_array
  Loyalty = ["Tola","Ade","Araoluwa","cynthia"]
 end
 
-def add_element_to_end_of_array(Loyalty, Yem)
+def add_element_to_end_of_array(Loyalty, "Yem")
   Loyalty.push("Yem")
   
 end
 
-def add_element_to_start_of_array(Loyalty, Pastor Grace)
+def add_element_to_start_of_array(Loyalty, "Pastor Grace")
   Loyalty.unshift("Pastor Grace")
   
 end
