@@ -27,12 +27,12 @@ def remove_element_from_start_of_array(Loyalty)
   
 end
 
-def retrieve_element_from_index(Loyalty, 0)
-  Loyalty.index[0]
+def retrieve_element_from_index(Loyalty, 1)
+  Loyalty.index[1]
 end
 
-def retrieve_first_element_from_array(array)
-  
+def retrieve_first_element_from_array(Loyalty)
+  Loyalty.index[0]
 end
 
 def retrieve_last_element_from_array(array)
