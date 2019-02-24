@@ -7,7 +7,8 @@ def create_an_array
   ["Tola","Ade","Araoluwa","cynthia"]
 end
 
-def add_element_to_end_of_array(array, element)
+def add_element_to_end_of_array(create_an_array, Yem)
+  create_an_array.push("Yem")
   
 end
 
