@@ -18,11 +18,12 @@ def add_element_to_start_of_array(Loyalty, Pastor Grace)
 end
 
 def remove_element_from_end_of_array(Loyalty)
-  
+  Loyalty.pop("Ade")
   
 end
 
-def remove_element_from_start_of_array(array)
+def remove_element_from_start_of_array(Loyalty)
+  
   
 end
 
