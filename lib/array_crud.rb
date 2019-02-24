@@ -4,19 +4,21 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["Tola","Ade","Araoluwa","cynthia"]
+ Loyalty = ["Tola","Ade","Araoluwa","cynthia"]
 end
 
-def add_element_to_end_of_array(create_an_array, Yem)
-  create_an_array.push("Yem")
+def add_element_to_end_of_array(Loyalty, Yem)
+  Loyalty.push("Yem")
   
 end
 
-def add_element_to_start_of_array(array, element)
+def add_element_to_start_of_array(Loyalty, Pastor Grace)
+  Loyalty.unshift("Pastor Grace")
   
 end
 
-def remove_element_from_end_of_array(array)
+def remove_element_from_end_of_array(Loyalty)
+  
   
 end
 
