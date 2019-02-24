@@ -7,12 +7,12 @@ def create_an_array
  array = ["Tola","Ade","Araoluwa","cynthia"]
 end
 
-def add_element_to_end_of_array(array, "Yem")
+def add_element_to_end_of_array(array, Yem)
   array.push("Yem")
   
 end
 
-def add_element_to_start_of_array(array, "Pastor Grace")
+def add_element_to_start_of_array(array, Pastor Grace)
   array.unshift("Pastor Grace")
   
 end
