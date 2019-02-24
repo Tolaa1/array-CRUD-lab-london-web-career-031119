@@ -7,7 +7,7 @@ def create_an_array
  array = ["Tola","Ade","Araoluwa","cynthia"]
 end
 
-def add_element_to_end_of_array(array, Yem)
+def add_element_to_end_of_array(array, element)
   array.push("Yem")
   
 end
@@ -27,7 +27,7 @@ def remove_element_from_start_of_array(array)
   
 end
 
-def retrieve_element_from_index(array, 1)
+def retrieve_element_from_index(array, element)
   array.index[1]
 end
 
