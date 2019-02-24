@@ -3,29 +3,29 @@ def create_an_empty_array
   
 end
 
-#def create_an_array
-# array = ["Tola","Ade","Araoluwa","cynthia"]
-#end
+def create_an_array
+ array = ["Tola","Ade","Araoluwa","cynthia"]
+end
 
-#def add_element_to_end_of_array(array, element)
- # array.push(element)
+def add_element_to_end_of_array(array, element)
+  array.push(element)
   
-#end
+end
 
-#def add_element_to_start_of_array(array, element)
+def add_element_to_start_of_array(array, element)
   array.unshift(element)
   
-#end
+end
 
-#def remove_element_from_end_of_array(array)
- # array.pop
+def remove_element_from_end_of_array(array)
+  array.pop
   
-#end
+end
 
-#def remove_element_from_start_of_array(array)
- # array.shift
+def remove_element_from_start_of_array(array)
+  array.shift
   
-#end
+end
 
 def retrieve_element_from_index(array, index)
   array.index
